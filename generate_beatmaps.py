@@ -163,7 +163,7 @@ def generate_beatmaps(arg):
                             f'{new_path}\\{metadata["General"]["AudioFilename"]}'
                         )
                 except:
-                    pass
+                    print(f"Error saving beatmap: {diff_name} [OD{od}-SV{sv}]")
     print(f"Thread {thread_no}: Finished!")
 
 
